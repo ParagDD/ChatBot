@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Transcript Search</title>
+</head>
+<body>
+    <h1>YouTube Transcript Search</h1>
+    <form method="post">
+        <label for="query">Enter your query:</label>
+        <input type="text" name="query" id="query" required>
+        <br>
+        <label for="video_url">Enter the YouTube video URL:</label>
+        <input type="url" name="video_url" id="video_url" required>
+        <br>
+        <input type="submit" value="Search">
+    </form>
+    
+    {% if answer %}
+    <h2>Search Result</h2>
+    <p>Answer:</p>
+    <p>{{ answer }}</p>
+    {% endif %}
+</body>
+</html>
