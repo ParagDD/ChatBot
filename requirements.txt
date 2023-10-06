@@ -16,3 +16,5 @@ flask
 youtube_transcript_api
 transformers
 torch
+streamlit
+-e .
