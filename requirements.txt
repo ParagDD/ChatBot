@@ -16,4 +16,3 @@ flask
 youtube_transcript_api
 transformers
 torch
--e .
