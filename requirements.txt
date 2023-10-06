@@ -3,7 +3,7 @@ SpeechRecognition
 gTTS
 openai
 langchain
-tiktoken
+tiktoken==0.5.1
 unstructured
 llm
 transformers
