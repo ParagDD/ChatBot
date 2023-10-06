@@ -1,13 +1,13 @@
-pydub==0.25.1
-SpeechRecognition==3.8.1
-gTTS==2.2.3
+pydub
+SpeechRecognition
+gTTS
 openai
 langchain
 tiktoken
 unstructured
 llm
 transformers
-faiss-gpu
+numpy
 faiss-cpu
 google-api-python-client
 srt
@@ -16,5 +16,4 @@ flask
 youtube_transcript_api
 transformers
 torch
-faiss-cpu
 -e .
